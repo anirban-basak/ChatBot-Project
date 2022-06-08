@@ -1,0 +1,45 @@
+.body {
+	color: rgb(32, 69, 162);
+	font-weight: bold;
+	font-size: 18px;
+	font-family: "Times Roman";
+    background: whitesmoke;
+    content: '';
+    background-image: url('https://thumbs.dreamstime.com/b/chat-bot-icon-social-networking-flat-vector-illustration-eps-chat-bot-icon-social-networking-flat-vector-illustration-eps-107098188.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.content {
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+}
+
+#main {
+	position: fixed;
+	top: 30%;
+	right: 200px;
+	width: 400px;
+	border: 0px solid rgb(80, 142, 78);
+	padding: 40px;
+}
+#main div {
+	margin: 10px;
+}
+#input {
+	border: 0;
+	padding: 5px;
+	border: 2px solid rgba(3, 2, 37, 0.803);
+  box-shadow: 2px 3px 5px;
+}
+.output {
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.13);
+}
